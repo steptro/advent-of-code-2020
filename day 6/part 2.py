@@ -15,8 +15,8 @@ for group in data:
             else:
                 d[choice] = d[choice] + 1
 
-    for k in d:
-        if d[k] == len(people):
+    for choice in d:
+        if d[choice] == len(people):
             s += 1
 
 print(s)  # 3351
